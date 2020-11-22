@@ -1,5 +1,7 @@
 import discord
 from discord.ext import commands
+import config
+token = config.token
 
 kirbyThemeFirst = False
 kirbyThemeSecond = False
@@ -130,5 +132,5 @@ async def on_message(message):
 
 
 
-client.run('NzUzMzc0MzEyMjM2NDQ5OTcy.X1lQgQ.xO_ylv1g726mw8u-s76QDZBVsJA')
+client.run(token)
 

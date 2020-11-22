@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+SaltBot/.vscode/launch.json
+SaltBot/config.json
+SaltBot/config.py
